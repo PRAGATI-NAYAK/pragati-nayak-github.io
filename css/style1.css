@@ -130,9 +130,9 @@ main div{
 }
 
 img{
-    display:block;
-    width:25%;
-    margin:12%;
+    display:inline-block;
+    width:20%;
+    margin:6%;
     border-radius: 35%;
 }
 .right{
