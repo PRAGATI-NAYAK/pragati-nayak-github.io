@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Pragati Aravind Nayak</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style2.css">
+    
+</head>
+<body>
+  <script src="../js/memories.js"></script>
+	<header>
+		
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+			  <div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>                        
+				</button>
+				
+			  </div>
+			  <div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+				  <li><a href="./index.html">Home</a></li>
+				  <li><a href="./myhobbies.html">My Hobbies</a></li>
+				  <li class="active"><a href="./mymemories.html">My Memories</a></li>
+				</ul>
+				
+			  </div>
+			</div>
+		  </nav>
+	</header>
+	<h1 style="text-align:right;font-size:10vw">Memories</h1>
+<div class="container">
+<div class="row">
+  <div class="column">
+    <img src="../images/beach.jpg" alt="beach" onclick="openModal();currentSlide(1)" onmouseover="info(this)" onmouseout="undo()" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../images/butterfly.jpg" alt="butterfly" onclick="openModal();currentSlide(2)" onmouseover="info(this)" onmouseout="undo()" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../images/cutiepie.jpg"  alt="cutiepie" onclick="openModal();currentSlide(3)" onmouseover="info(this)" onmouseout="undo()" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../images/malyalikutti.jpg" alt="malyalikutti" onclick="openModal();currentSlide(4)" onmouseover="info(this)" onmouseout="undo()" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../images/missindia.jpg" alt="missindia" onclick="openModal();currentSlide(5)" onmouseover="info(this)" onmouseout="undo()" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../images/missnador.jpg" alt="missnador" onclick="openModal();currentSlide(6)" onmouseover="info(this)" onmouseout="undo()" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../images/radha.jpg"  alt="radha" onclick="openModal();currentSlide(7)" onmouseover="info(this)" onmouseout="undo()" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../images/sweater.jpg"  alt="sweater" onclick="openModal();currentSlide(8)" onmouseover="info(this)" onmouseout="undo()" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../images/withtoys.jpg"  alt="withtoys" onclick="openModal();currentSlide(9)" onmouseover="info(this)" onmouseout="undo()" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 9</div>
+      <img src="../images/beach.jpg" onmouseover="info(this)" onmouseout="undo()" alt="beach">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 9</div>
+      <img src="../images/butterfly.jpg" onmouseover="info(this)" onmouseout="undo()" alt="butterfly">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 9</div>
+      <img src="../images/cutiepie.jpg" onmouseover="info(this)" onmouseout="undo()" alt="cutiepie">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 9</div>
+      <img src="../images/malyalikutti.jpg" onmouseover="info(this)" onmouseout="undo()" alt="malyalikutti">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">5 / 9</div>
+      <img src="../images/missindia.jpg" onmouseover="info(this)" onmouseout="undo()" alt="missindia">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">6 / 9</div>
+      <img src="../images/missnador.jpg" onmouseover="info(this)" onmouseout="undo()" alt="missnador">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">7 / 9</div>
+      <img src="../images/radha.jpg" onmouseover="info(this)" onmouseout="undo()" alt="radha">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">8 / 9</div>
+      <img src="../images/sweater.jpg" onmouseover="info(this)" onmouseout="undo()" alt="sweater">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">9 / 9</div>
+      <img src="../images/withtoys.jpg" onmouseover="info(this)" onmouseout="undo()" alt="withtoys">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor"  src="../images/beach.jpg"  onclick="currentSlide(1)" onmouseover="info(this)" onmouseout="undo()" alt="beach">
+    </div>
+    <div class="column">
+      <img class="demo cursor"  src="../images/butterfly.jpg"  onclick="currentSlide(2)" onmouseover="info(this)" onmouseout="undo()" alt="butterfly">
+    </div>
+    <div class="column">
+      <img class="demo cursor"  src="../images/cutiepie.jpg"  onclick="currentSlide(3)" onmouseover="info(this)" onmouseout="undo()" alt="cutiepie">
+    </div>
+    <div class="column">
+      <img class="demo cursor"  src="../images/malyalikutti.jpg" onclick="currentSlide(4)" onmouseover="info(this)" onmouseout="undo()" alt="malyalikutti">
+    </div>
+    <div class="column">
+      <img class="demo cursor"  src="../images/missindia.jpg"  onclick="currentSlide(5)" onmouseover="info(this)" onmouseout="undo()" alt="missindia">
+    </div>
+    <div class="column">
+      <img class="demo cursor"  src="../images/missnador.jpg"  onclick="currentSlide(6)" onmouseover="info(this)" onmouseout="undo()" alt="missnador">
+    </div>
+    <div class="column">
+      <img class="demo cursor"  src="../images/radha.jpg"  onclick="currentSlide(7)" onmouseover="info(this)" onmouseout="undo()" alt="radha">
+    </div>
+    <div class="column">
+      <img class="demo cursor"  src="../images/sweater.jpg"  onclick="currentSlide(8)" onmouseover="info(this)" onmouseout="undo()" alt="sweater">
+    </div>
+    <div class="column">
+      <img class="demo cursor"  src="../images/withtoys.jpg"  onclick="currentSlide(9)" onmouseover="info(this)" onmouseout="undo()" alt="withtoys">
+    </div>
+  </div>
+</div>
+</div>
+<div id="right">
+ <h3>about the picture</h3>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
