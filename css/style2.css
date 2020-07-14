@@ -1,7 +1,9 @@
 
 
+
+
 h1{
-  color:rgb(255, 0, 106);
+  color:rgb(194, 11, 87);
 }
 h3{
   color:rgb(19, 8, 10);
@@ -20,6 +22,11 @@ header{
 .navbar{
   position:initial;
 }
+.navbar-inverse .navbar-nav>li>a {
+  color: #f7f0f0;
+  font-size: 2vw;
+}
+
 .navbar-inverse{
   background-color:rgb(31, 191, 203);
   border-color: rgb(13, 157, 182);
@@ -31,9 +38,6 @@ border-color: rgb(13, 157, 182);
 .navbar-inverse .navbar-toggle:focus {
   background-color:white;
 
-}
-.navbar-inverse .navbar-nav>li>a {
-  color: #f7f0f0;
 }
 .navbar-inverse .navbar-toggle:hover
 {
@@ -206,15 +210,33 @@ img.hover-shadow {
 }
 #right{
   display: inline-block;
-  background-color: linear-gradient(rgb(15,199,199),rgb(5, 17, 124));
+  background-color: linear-gradient(rgb(4, 22, 160),rgb(15,199,199));
   width:40%;
-  height:450vh;
+  height:70vh;
   float:right;
 }
+#right h3{
+  font-size:3vw;
+}
+
 img{
   width:65%;
   padding:4%;
 }
 h2{
   font-size:5vw;
+  text-align:left;
+}
+nav a{
+  font-size:2vw;
+}
+
+p{
+  text-align: justify;
+}
+footer p{
+  display: block;
+  text-align: left;
+  margin-bottom:0px;
+  background: linear-gradient(rgb(91, 219, 108),rgb(17, 184, 226));
 }
