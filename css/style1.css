@@ -1,12 +1,14 @@
  
+ 
 h1{
   color: blue;
 }
 h2{
-  color:rgb(194, 20, 238);
+  color:rgb(214, 236, 9);
+  font-weight: bolder;
 }
 h3{
-  
+  font-size:3vw;
   color:rgb(21, 35, 226);
 }
 h4{
@@ -29,7 +31,9 @@ header{
     font-family:'Times New Roman', Times, serif;
    
   } 
-  
+  .navbar-inverse .navbar-nav>li>a {
+    color: #f7f0f0;
+}
   
   .navbar-inverse{
     background-color:rgb(31, 191, 203);
@@ -47,9 +51,6 @@ header{
   {
     background-color:white;
   }
-.navbar-inverse .navbar-nav>li>a {
-  color: #f7f0f0;
-}
   .navbar-inverse .navbar-toggle .icon-bar {
     background-color:rgb(13, 157, 182);
   }
@@ -129,11 +130,12 @@ main div{
 
 }
 .container{
-    display:inline-block;
+    display:block;
+    width:100%;
 }
 
 img{
-    display:inline-block;
+    display:block;
     width:20%;
     margin:6%;
     border-radius: 35%;
@@ -145,3 +147,50 @@ img{
 h1,h2,h4,p,nav a ,li{
   font-size:2vw;
 }
+p{
+  text-align: justify;
+}
+footer p{
+  font-size: 1.5vw;
+  text-align: left;
+  display: block;
+  line-height: 180%;
+  margin-bottom:0px;
+  background: linear-gradient(rgb(91, 219, 108),rgb(17, 184, 226));
+}
+@media screen and (max-width:1024px){
+  .aside ,.top,.container,img {
+ display:block;
+   }
+ }
+ @media screen and (max-width:760px){
+  .aside,.top,.container,img{
+display:block;
+  }
+}
+
+@media screen and (max-width:480px){
+.aside{
+  display:inline-block;
+  width:40%;
+  
+}
+.top{
+  display:inline-block;
+  width:40%;
+  
+}
+.container{
+  display: inline-block;
+  width:48%;
+}
+
+img{
+  display: inline-block;
+  width:40%;
+}
+  }
+
+
+
+
